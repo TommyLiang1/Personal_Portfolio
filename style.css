@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: Poppins;
+}
+
+/* NAVBAR */
+
+.nav-bar {
+  background-color: #222222;
+  text-align: center;
+  font-size: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-item {
+  display: inline-block;
+  text-decoration: none;
+  color: #BBBBBB;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.nav-item:hover {
+  color: white;
+  background-color: #555555;
+}
+
+/* PORTFOLIO */
+
+#container {
+  margin-top: 80px;
+  text-align: center;
+}
+
+/* Intro */
+
+#line-container {
+  display: flex;
+  align-items: center;
+}
+
+.hr-header {
+  padding: 0 2rem;
+  font-size: 25px;
+}
+
+.line {
+  flex: 1;
+  height: 3px;
+  background-color: #000;
+}
+
+.left-line {
+  margin-left: 400px;
+  margin-right: 25px;
+}
+
+.right-line {
+  margin-left: 25px;
+  margin-right: 400px;
+}
+
+/* Project */
+
+.project-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.project {
+  display: inline-block;
+  margin: 0px 50px 50px 10px;
+  padding: 10px;
+}
+
+.project:hover {
+  background-color: #999999;
+  border-radius: 10px;
+}
+
+.project-img {
+  width: 500px;
+}
+
+.project-desc {
+  width: 500px;
+  margin-top: 20px;
+  font: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
